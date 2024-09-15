@@ -1,2 +1,3 @@
 # webserver-websocket
-A basic webserver and websocket code
+一个简单的webserver和websocket程序
+网络io层采用reactor模式
