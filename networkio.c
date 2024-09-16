@@ -215,7 +215,7 @@ int main()
         {
             int connfd = events[i].data.fd;
             
-            if (connfd = sockfd)
+            if (connfd == sockfd)
             {
                 int clientfd = accept(sockfd, (struct sockaddr*)&clientaddr, &len);
                 printf("accept finished: %d\n", clientfd);
